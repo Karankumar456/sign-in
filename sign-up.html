@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form >
+        <div class="form2">
+            <h1>Sign-Up</h1>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+            <br>
+            <input type="email" name="email" id="name" placeholder="email" required>
+            <br>
+            <input type="current-password" name="pass" id="password" placeholder="Password" required>
+            <br>
+            <button type="button" class="btn" onclick="fello()" >Sign-Up </button> 
+        </div>
+    </form>
+
+    <script>
+    function fello(){
+        var c = document.getElementById("name").value;
+        var d= document.getElementById("email").value;
+        var e = document.getElementById("password").value;
+    }
+
+    localStorage.setItem(name="name",name);
+    localStorage.setItem(email="email",email);
+    localStorage.setItem(password="password",password);
+
+    if(c==""&& d=="" && e== ""){
+        location.href="index.html";
+    }
+    else{
+        alert("Invalid bro");
+    }
+    </script>
+</body>
+</html>

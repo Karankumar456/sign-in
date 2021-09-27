@@ -1,0 +1,82 @@
+.form{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+border: 1px solid tomato;
+height:390px;
+width: 390px;
+background: rgb(183, 234, 235);
+background-image: url('plant.jpg');
+box-shadow: 15px 10px 9px 15px #a896a5;
+}
+
+.form2{
+   
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid tomato;
+        height:420px;
+        width: 390px;
+        background: rgb(183, 234, 235);
+        background-image: url('plant.jpg');
+        box-shadow: 15px 10px 9px 15px #a896a5;   
+}
+
+
+input{
+    margin-top: 45px;
+    width: 260px;
+    margin-left: 60px;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.btn{
+    
+    margin-top: 40px;
+    margin-left: 120px;
+    border: none;
+    width: 120px;
+    padding: 10px;
+    background: tomato;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background: deeppink;
+}
+.a{
+    margin-top: 20px;
+ margin-left: 40px;
+ text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+span{
+    margin-left: 20px;
+    color: rgb(53, 47, 45);
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(46, 45, 45);
+}
+img{
+    width: 620px;
+    height: 530px;
+    margin-left: 190px;
+    display: flex;
+   align-content: stretch;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form >
+        <div class="form">
+            <h1>Login Page</h1>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+            <br>
+            <input type="current-password" name="pass" id="password" placeholder="Password" required>
+            <br>
+            <button type="button" class="btn" onclick="hello()" >sign-in </button> 
+            <div class="a">
+                <a href="">Sign-Up</a> <span>New Create Account First</span>
+            </div>
+            
+
+        </div>
+    </form>
+
+
+    <script>
+
+      function hello(){
+    
+        var a = document.getElementById('name').value;
+        var b = document.getElementById('password').value;
+
+
+    
+        if(a=="abc" && b=="123456"){
+          location.href="home.html";
+        }
+        else{
+            alert("invalid")
+        }
+    
+        }
+    </script>
+    
+</body>
+
+</html>
